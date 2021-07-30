@@ -25,6 +25,30 @@
 - Media Queries
 */
 
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero {
+  /*background-image: url('../images/cards1.jpg');*/
+  background:linear-gradient(0deg, rgba(203, 80, 90, 0.3), rgba(203, 80, 90, 0.3)), url('../images/cards1-spejl.jpg');
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.75);
+}
+.hero-multiplier {
+  margin-bottom: .5rem;
+  color: #11DFC7;
+}
+.hero-heading {
+  margin-bottom: .3rem;
+  margin-top: .3rem;
+}
+.hero-description {
+  opacity: .8;
+  font-weight: 300;
+}
+
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
