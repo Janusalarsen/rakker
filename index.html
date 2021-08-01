@@ -22,6 +22,13 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
 
+  <!-- Scripts
+  ––––––––––––––––––––––––––––––––––––––––––––––––––
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/github-prettify-theme.css">
+  <script src="js/site.js"></script>
+ -->
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -31,91 +38,117 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<div class="section hero">
+<div class="container">
+  <div class="container">
+    <!--<div class="navbar-spacer"></div>-->
+      <nav class="navbar">
+        <div class="container">
+          <ul class="navbar-list">
+            <li class="navbar-item"><a class="navbar-link" href="#intro">Intro</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="#udspil">Udspil</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+  <div class="section hero">
+      <div class="container">
+        <div class="row">
+          <div class="one-half column">
+            <h1 class="hero-heading">Rakker</h1>
+            <h4 class="hero-heading">Savner du også et kortspil for hele familien der er udfordrende, taktisk, og kræver snilde?</h4>
+            <!-- <a class="button button-primary" href="http://getskeleton.com">Try Skeleton</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="introduktion" id="intro">
     <div class="container">
       <div class="row">
-        <div class="one-half column">
-          <h4 class="hero-heading">Savner du også et kortspil for hele familien der er udfordrende, taktisk, og kræver snilde?</h4>
-          <!-- <a class="button button-primary" href="http://getskeleton.com">Try Skeleton</a> -->
+        <div class="full-width column" style="margin-top: 5%">
+          <h3>Introduktion</h3>
+          <p>Denne side er den første og eneste hjemmeside for kortspillet Rakker. Hjemmesiden skal fungere som introduktion for nye spillere, men også som dokumentation for eksisterende spillere. Således er der altid et reference punkt for regler mm. i kampens hede. Vi arbejder løbende på at opdatere og udvikle på siden her.</p>
+          <p>"Rakker" henviser til ordet "rakkerpak" hvilket er en betegnelse for personer med afsky. Altså en betegnelse man ikke vil have på sig.</p>
         </div>
       </div>
     </div>
   </div>
 
-<div class="introduktion">
-  <div class="container">
-    <div class="row">
-      <div class="full-width column" style="margin-top: 5%">
-        <h3>Rakker</h3>
-        <p>Denne side er den første og eneste hjemmeside for kortspillet Rakker. Hjemmesiden skal fungere som introduktion for nye spillere, men også som dokumentation for eksisterende spillere. Således er der altid et reference punkt for regler mm. i kampens hede. Vi arbejder løbende på at opdatere og udvikle på siden her.</p>
+  <div class="Mål med Rakker" id="Mål">
+    <div class="container">
+      <div class="row">
+        <div class="full-width column" style="margin-top: 5%">
+          <h3>Mål</h3>
+          <p>Målet med spillet Rakker er ikke at blive Rakker. En spiller bliver rakker når vedkommende er den sidste spiller tilbage med kort på hånden. Spillere undgår dermed at blive rakker ved at komme af med deres kort først. Der er dermed ikke nogen decideret vinder i Rakker. Der er dog nogen der mener at den første spiller der kommer af med sine kort er vinderen.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="udspil" id="udspil">
+    <div class="container">
+      <div class="row">
+        <div class="full-width column" style="margin-top: 5%">
+          <h4>Eksempler på mulige udspil</h4>
+          <table class="u-full-width">
+            <thead>
+              <tr>
+                <th>Udspil navn</th>
+                <th>Eksempel på kort sammensætning</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Enkelt</td>
+                <td>Spar 8</td>
+                <td> </td>
+              </tr>
+              <tr>
+                <td>Par</td>
+                <td>Ruder 3, Hjerter 3</td>
+                <td> </td>
+              </tr>
+              <tr>
+                <td>Par med følgesvend</td>
+                <td>Kløver 4, Spar 4, Spar 2</td>
+                <td> </td>
+              </tr><tr>
+                <td>Tre ens </td>
+                <td>Hjerter Konge, Spar Konge, Ruder Konge</td>
+                <td> </td>
+              </tr><tr>
+                <td>Tre ens med følgesvend</td>
+                <td>Spar Dame, Kløver Dame, Hjerter Dame, Hjerter 10</td>
+                <td> </td>
+              </tr><tr>
+                <td>Fire ens</td>
+                <td>Kløver 6, Spar 6, Hjerter 6, Ruder 6</td>
+                <td> </td>
+              </tr><tr>
+                <td>Fire ens med 1 følgesvend</td>
+                <td>Hjerter 5, Ruder 5, Spar 5, Kløver 5, Spar 2</td>
+                <td> </td>
+              </tr><tr>
+                <td>Fire ens med 2 følgesvende</td>
+                <td>Spar Es, Hjerter Es, Kløver Es, Ruder Es, Hjerter 10, Kløver 7</td>
+                <td> </td>
+              </tr><tr>
+                <td>Halv bog</td>
+                <td>Hjerter 3, Spar 3, Kløver 3, Spar 4, Ruder 4, Hjerter Konge</td>
+                <td> </td>
+              </tr><tr>
+                <td>Hel bog</td>
+                <td>Spar 5, Hjerter 5, Kløver 5, Ruder 5, Hjerter Konge, Spar Konge, Kløver Konge, Spar Dame, Hjerter Dame, Hjerter 2</td>
+                <td> </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>
 </div>
-
-<div class="udspil">
-  <div class="container">
-    <div class="row">
-      <div class="full-width column" style="margin-top: 5%">
-        <h4>Eksempler på alle mulige udspil</h4>
-        <table class="u-full-width">
-          <thead>
-            <tr>
-              <th>Udspil navn</th>
-              <th>Eksempel på kort sammensætning</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Enkelt</td>
-              <td>Spar 8</td>
-              <td> </td>
-            </tr>
-            <tr>
-              <td>Par</td>
-              <td>Ruder 3, Hjerter 3</td>
-              <td> </td>
-            </tr>
-            <tr>
-              <td>Par med følgesvend</td>
-              <td>Kløver 4, Spar 4, Spar 2</td>
-              <td> </td>
-            </tr><tr>
-              <td>Tre ens </td>
-              <td>Hjerter Konge, Spar Konge, Ruder Konge</td>
-              <td> </td>
-            </tr><tr>
-              <td>Tre ens med følgesvend</td>
-              <td>Spar Dame, Kløver Dame, Hjerter Dame, Hjerter 10</td>
-              <td> </td>
-            </tr><tr>
-              <td>Fire ens</td>
-              <td>Kløver 6, Spar 6, Hjerter 6, Ruder 6</td>
-              <td> </td>
-            </tr><tr>
-              <td>Fire ens med 1 følgesvend</td>
-              <td>Hjerter 5, Ruder 5, Spar 5, Kløver 5, Spar 2</td>
-              <td> </td>
-            </tr><tr>
-              <td>Fire ens med 2 følgesvende</td>
-              <td>Spar Es, Hjerter Es, Kløver Es, Ruder Es, Hjerter 10, Kløver 7</td>
-              <td> </td>
-            </tr><tr>
-              <td>Halv bog</td>
-              <td>Hjerter 3, Spar 3, Kløver 3, Spar 4, Ruder 4, Hjerter Konge</td>
-              <td> </td>
-            </tr><tr>
-              <td>Hel bog</td>
-              <td>Spar 5, Hjerter 5, Kløver 5, Ruder 5, Hjerter Konge, Spar Konge, Kløver Konge, Spar Dame, Hjerter Dame, Hjerter 2</td>
-              <td> </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
