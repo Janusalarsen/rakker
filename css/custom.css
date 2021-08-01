@@ -4,17 +4,20 @@
   --navbarheight: 50px;
   width: 100%;
   height: var(--navbarheight);;
-  background-color: #dddddd;
+  /*background-color: #dddddd;*/
   top: 0;
   color: #222;
-  margin: 0 auto;
+  border-bottom: 1px solid #eee;
+  position: fixed;
+  background-color: white;
+
 }
 ul.navbar-ul-list{
   list-style-type: none;
   margin: 0;
   padding: 0;
   padding-top: 10;
-  position: relative;
+  position: center;
 }
 li.navbar-list{
   display: inline;
@@ -84,6 +87,11 @@ li a.navbar-link:hover {
 .docs-section {
   border-top: 1px solid #eee;
   padding: 4rem 0;
+  margin-bottom: 0;
+}
+#hero {
+  border-top: 1px solid #eee;
+  padding: 15rem 0rem 10rem 0;
   margin-bottom: 0;
 }
 .value-img {
