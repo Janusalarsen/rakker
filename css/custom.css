@@ -2,13 +2,15 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .navbar {
-  --navbarheight: 50px;
-  height: var(--navbarheight);;
+  /*--navbarheight: 50px;
+  height: var(--navbarheight);*/
+  min-height: 50px;
   top: 0;
   color: #222;
   border-bottom: 1px solid #eee;
   position: sticky;
   background-color: white;
+  overflow: hidden;
 }
 ul.navbar-ul-list{
   list-style-type: none;
