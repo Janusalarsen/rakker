@@ -163,9 +163,28 @@ li a.navbar-link:hover {
 .example-screenshot {
   width: 100%;
   height: auto;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid #eee;
 }
 
+.screenshot {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
 
+/*.img {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}*/
 
 /* Larger than phone */
 @media (min-width: 550px) {
