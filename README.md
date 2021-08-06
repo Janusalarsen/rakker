@@ -20,7 +20,7 @@ The above list is non-exhaustive. Skeleton works perfectly with almost all older
 
 ## License
 
-All parts of Skeleton are free to use and abuse under the [open-source MIT license](https://github.com/dhg/Skeleton/blob/master/LICENSE.md).
+All parts of rakkerspil.dk are free to use and abuse under the [open-source MIT license](https://github.com/dhg/Skeleton/blob/master/LICENSE.md).
 
 ## Acknowledgement
 
