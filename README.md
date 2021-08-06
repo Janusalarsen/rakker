@@ -1,10 +1,11 @@
 # Rakkerspil.dk
 
-Rakkerspil.dk is a webpage dedicated to the card game called Rakker. Rakker is a game that has run in my family for at least 4 generations, but as far as we know the game is not documented anyway as of yet. Therefore, my wife and I set out on a mission to create a webpage for it.
+Rakkerspil.dk is a webpage dedicated to the card game called Rakker. Rakker is a game that has run in our family for at least 4 generations, but as far as we know the game is not documented anyway as of yet. Therefore, my wife and I set out on a mission to create a webpage for it.
 
 ## Roles
 
 Development: Janus
+
 Content Creation: Hanne
 
 ## Browser support
